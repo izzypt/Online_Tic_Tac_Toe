@@ -5,8 +5,16 @@
   ## Express
     To help us build the server, handle middleware and routes.
     
+    import express from "express";
+    
+    const app = express()
+    
+    express.json() will be in our middleware to enable json.
+    
    ## cors
     To help us handle cross origin request resources. ( Help different ports communicate with each other)
+    
+    app.use(cors())
         
    ## bcrypt
     To hash the passwords
