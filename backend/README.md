@@ -19,6 +19,10 @@
    ## bcrypt
     To hash the passwords
     
+    bcrypt.hash(<password>, saltLength) to generate a hashedPassword.
+    
+    bcrypt.compare(<input_password>, <hashed_password>)
+    
    ## JWT
     JWT is used for authorization. 
     Making sure that the user sending requests to the server is the same user that logged in. 
