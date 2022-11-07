@@ -19,8 +19,13 @@
    ## bcrypt
     To hash the passwords
     
-   ## Nodemon
-    To restart our server automatically whenever there are changes in our code.
-    
+   ## JWT
+    JWT is used for authorization. 
+    Making sure that the user sending requests to the server is the same user that logged in. ( This is usually done using session and session ID).
+
    ## uuid
     Will help us generate unique ID's for the application user's
+
+   ## Nodemon
+    To restart our server automatically whenever there are changes in our code.
+
