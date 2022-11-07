@@ -3,7 +3,7 @@
   The backend for this project is running on node with the following dependencies:
 
   ## Express
-    To help us build the server, handle middleware and routes.
+    To help us build the server, handle middleware and routes:
     
     import express from "express";
     
@@ -12,7 +12,7 @@
     express.json() will be in our middleware to enable json.
     
    ## cors
-    To help us handle cross origin request resources. ( Help different ports communicate with each other)
+    To help us handle cross origin request resources. ( Help different ports communicate with each other) :
     
     app.use(cors())
         
