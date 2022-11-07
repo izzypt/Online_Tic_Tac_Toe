@@ -21,7 +21,7 @@
     
     bcrypt.hash(<password>, saltLength) to generate a hashedPassword.
     
-    bcrypt.compare(<input_password>, <hashed_password>)
+    bcrypt.compare(<input_password>, <hashed_password>) to verify the password validity.
     
    ## JWT
     JWT is used for authorization. 
