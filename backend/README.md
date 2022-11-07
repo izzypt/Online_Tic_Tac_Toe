@@ -23,6 +23,9 @@
     JWT is used for authorization. 
     Making sure that the user sending requests to the server is the same user that logged in. 
     (Usually done using session and session ID).
+    
+    User agent should send the JWT, typically in the Authorization http header using the Bearer schema.
+    Authorization: Bearer <token>
 
    ## uuid
     Will help us generate unique ID's for the application user's
