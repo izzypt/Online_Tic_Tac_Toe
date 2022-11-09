@@ -9,7 +9,7 @@
     
     const app = express()
     
-    express.json() will be in our middleware to enable json.
+    express.json() will be in our middleware to parse any json that comes in and allow us to treat it like JS objects.
     
    ## cors
     To help us handle cross origin request resources. ( Help different ports communicate with each other) :
